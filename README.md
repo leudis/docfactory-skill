@@ -10,6 +10,9 @@ Diseñada para Claude Code. Reutilizable en cualquier proyecto, lenguaje y tama�
 
 ```bash
 git clone https://github.com/leudis/docfactory-skill ~/.claude/skills/docfactory
+
+# Para actualizar a la última versión
+cd ~/.claude/skills/docfactory && git pull
 ```
 
 Claude Code descubre la skill automáticamente. En tu próxima sesión estará disponible como `/docfactory`.
